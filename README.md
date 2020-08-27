@@ -42,3 +42,6 @@ $ docker run -p 5601:5601 --name kibana -d --network esnetwork docker.elastic.co
 | - Inserção										| - insert into TYPE (id, atributo1, atributo2) values (ID, valor1, valor2);|POST /index/type/id|
 | - Inserção com geração automática de ID			| - insert into TYPE (atributo1, atributo2) values (valor1, valor2);|POST /index/type|
 | - Atualização parcial de registros/documentos		| - update TYPE set atributo1 = valor1 where id = ID;|POST /index/type/id/_update|
+
+
+Uira Peixoto
